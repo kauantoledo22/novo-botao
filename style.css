@@ -47,6 +47,9 @@ body{
       box-shadow: 0 0 1em .25em var(--glow-color),
                   0 0 4em 2em var(--glow-spread-color),
                   inset 0 0 .5em .25em var(--glow-color);
-    
-    
+    }
+    button:active{
+        box-shadow: 0 00 0.6em .25em var(--glow-color),
+                    0 00 2.5em .2em var(--glow-spread-color),
+                    inset 0 0 .5em  .25em var(--glow-color)
     }
